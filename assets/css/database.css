@@ -1,0 +1,118 @@
+*{box-sizing: border-box;}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	line-height: 1.1;
+	font-family: "Open Sans";
+	background: #1f4037;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+/* Wrapper */
+#wrapper {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.one-third {
+	height: auto;
+	width: 50%;
+	/*border: 2px solid #ccc;*/
+	margin: 0;
+}
+.two-third {
+	height: auto;
+	/*border: 2px solid #ccc;*/
+	width: 50%;
+	margin: 0;
+}
+
+/* Containers */
+.container {
+	margin: 20px auto!important;
+}
+
+form {
+	margin: 5em auto!important;
+	border: none;
+	padding: 1em;
+	width: 100%;
+	border-radius: 5px;
+	background: #fff;
+}
+
+/*select {border: 2px!important;border-color: #335947!important;}*/
+
+input[type="radio"]{color: #335947;height: 25px;width: 25px;border: 1px solid #335947;}
+input[type="text"] {
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	background: #cde5d9!important;
+	/*background: #eee;*/
+	padding: 0.5em;
+	outline: none;
+}
+input[type="radio"] {outline: none;cursor: pointer;}
+span {display: inline-block;width: 5px;}
+input[type="text"]:focus {background: #fff!important;box-shadow:inset 0 1px 1px 0 rgba(0,0,0,0.20), inset 0 -1px 1px 0 rgba(0,0,0,0.20);}
+
+#uniqueCode {width: 100px;}
+
+label {
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	color: #335947;
+}
+
+select {
+	border-radius: 5px;
+	background: #333;
+	padding: 0.5em;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+#saveBtn {
+	background: #53a77f!important;
+	cursor: pointer;
+	transition: 0.6s;
+	border: none;
+}
+
+#saveBtn:hover {
+	background: #335947!important;
+}
+
+/* Student Engine Generator */
+#engine {
+	height: 50px;
+	text-align: center;
+	margin: 5em auto 0.2em auto;
+	width: 100%;
+}
+
+#engine:focus {
+	background: #fff;
+}
+
+#student-code {color: #335947;font-weight: 900!important;/*display: none;*/}
+
+.badge-success {
+    color: #fff;
+    background-color: #335947;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
